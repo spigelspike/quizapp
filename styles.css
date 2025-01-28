@@ -7,6 +7,7 @@ body {
     height: 100vh;
     margin: 0;
     position: relative;
+    background: rgba(44, 52, 65, 0.8);
 }
 
 /* Add blur effect to background */
