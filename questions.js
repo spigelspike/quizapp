@@ -1,100 +1,139 @@
-// Questions for users under 17
 const juniorQuestions = [
+    // ... existing questions ...
+
     {
-        question: "What does 'CPU' stand for?",
-        options: ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Computer Processing Unit"],
-        answer: "Central Processing Unit",
-        difficulty: "easy"
+        question: "Who is this person?",
+        options: ["Bill Gates", "Steve Jobs", "Mark Zuckerberg", "Elon Musk"],
+        answer: "Steve Jobs",
+        difficulty: "easy",
+        image: "https://example.com/steve-jobs.jpg" // Replace with actual image URL
     },
     {
-        question: "Which of these is a popular web browser?",
-        options: ["Firefox", "Waterdog", "Skynet", "DataView"],
-        answer: "Firefox",
-        difficulty: "easy"
-    },
-    {
-        question: "What does 'WiFi' stand for?",
-        options: ["Wireless Fidelity", "Wireless Finding", "Wire Filter", "Wide Fidelity"],
-        answer: "Wireless Fidelity",
-        difficulty: "easy"
-    },
-    {
-        question: "Which company makes the iPhone?",
-        options: ["Samsung", "Apple", "Google", "Microsoft"],
+        question: "What company logo is this?",
+        options: ["Apple", "Google", "Microsoft", "Amazon"],
         answer: "Apple",
+        difficulty: "easy",
+        image: "https://example.com/apple-logo.png" // Replace with actual image URL
+    },
+    {
+        question: "What does 'HTML' stand for?",
+        options: ["HyperText Markup Language", "High-Level Text Machine Language", "Hyperlink and Text Management Language", "Home Tool Markup Language"],
+        answer: "HyperText Markup Language",
         difficulty: "easy"
     },
     {
-        question: "What type of device is a mouse?",
-        options: ["Output Device", "Input Device", "Storage Device", "Processing Device"],
-        answer: "Input Device",
+        question: "Which of these is a programming language?",
+        options: ["Python", "HTML", "CSS", "XML"],
+        answer: "Python",
         difficulty: "easy"
     },
     {
-        question: "What does 'USB' stand for?",
-        options: ["Universal Serial Bus", "United Serial Bus", "Universal System Bus", "United System Boot"],
-        answer: "Universal Serial Bus",
+        question: "What is the main purpose of a firewall?",
+        options: ["Block unauthorized access", "Speed up the internet", "Store data", "Play videos"],
+        answer: "Block unauthorized access",
         difficulty: "easy"
     },
     {
-        question: "Which of these is a social media platform?",
-        options: ["Instagram", "WordPad", "Calculator", "FileManager"],
+        question: "What is the name of this device?",
+        options: ["Keyboard", "Mouse", "Monitor", "Printer"],
+        answer: "Keyboard",
+        difficulty: "easy",
+        image: "https://example.com/keyboard.jpg" // Replace with actual image URL
+    },
+    {
+        question: "Which of these is a search engine?",
+        options: ["Google", "Facebook", "Instagram", "WhatsApp"],
+        answer: "Google",
+        difficulty: "easy"
+    },
+    {
+        question: "What is the name of this social media platform?",
+        options: ["Twitter", "Facebook", "Instagram", "LinkedIn"],
         answer: "Instagram",
+        difficulty: "easy",
+        image: "https://example.com/instagram-logo.png" // Replace with actual image URL
+    },
+    {
+        question: "What does 'AI' stand for?",
+        options: ["Artificial Intelligence", "Automated Information", "Advanced Internet", "Automated Intelligence"],
+        answer: "Artificial Intelligence",
         difficulty: "easy"
     },
     {
-        question: "What is the main function of an antivirus program?",
-        options: ["Play Games", "Protect from Malware", "Edit Photos", "Send Emails"],
-        answer: "Protect from Malware",
-        difficulty: "easy"
-    },
-    {
-        question: "What is the difference between RAM and ROM?",
-        options: [
-            "RAM is temporary, ROM is permanent",
-            "RAM is bigger, ROM is smaller",
-            "RAM is slower, ROM is faster",
-            "They are the same thing"
-        ],
-        answer: "RAM is temporary, ROM is permanent",
-        difficulty: "hard"
-    },
-    {
-        question: "What is cloud computing?",
-        options: [
-            "Weather forecasting",
-            "Internet-based computing services",
-            "High-altitude computers",
-            "Flying computers"
-        ],
-        answer: "Internet-based computing services",
-        difficulty: "hard"
+        question: "What is the name of this programming tool?",
+        options: ["Visual Studio Code", "Eclipse", "PyCharm", "IntelliJ IDEA"],
+        answer: "Visual Studio Code",
+        difficulty: "easy",
+        image: "https://example.com/vscode-logo.png" // Replace with actual image URL
     }
 ];
 
-// Questions for users 17 and older
 const seniorQuestions = [
+    // ... existing questions ...
+
     {
-        question: "What is the primary difference between HTTP and HTTPS?",
-        options: [
-            "HTTPS is encrypted and secure",
-            "HTTP is faster",
-            "HTTPS uses different ports",
-            "They are the same"
-        ],
-        answer: "HTTPS is encrypted and secure",
+        question: "Who is this person?",
+        options: ["Linus Torvalds", "Bill Gates", "Steve Wozniak", "Tim Berners-Lee"],
+        answer: "Linus Torvalds",
+        difficulty: "medium",
+        image: "https://example.com/linus-torvalds.jpg" // Replace with actual image URL
+    },
+    {
+        question: "What company logo is this?",
+        options: ["Google", "Microsoft", "Amazon", "Tesla"],
+        answer: "Google",
+        difficulty: "medium",
+        image: "https://example.com/google-logo.png" // Replace with actual image URL
+    },
+    {
+        question: "What is the primary function of a GPU?",
+        options: ["Render graphics", "Store data", "Manage network connections", "Run the operating system"],
+        answer: "Render graphics",
         difficulty: "medium"
     },
-    // ... (all other senior questions remain the same)
     {
-        question: "What is blockchain's fundamental innovation?",
-        options: [
-            "Decentralized immutable ledger",
-            "Faster data processing",
-            "Better data compression",
-            "Improved graphics rendering"
-        ],
-        answer: "Decentralized immutable ledger",
-        difficulty: "hard"
+        question: "Which of these is a version control system?",
+        options: ["Git", "MySQL", "Apache", "Node.js"],
+        answer: "Git",
+        difficulty: "medium"
+    },
+    {
+        question: "What is the name of this cloud service provider?",
+        options: ["AWS", "Azure", "Google Cloud", "IBM Cloud"],
+        answer: "AWS",
+        difficulty: "medium",
+        image: "https://example.com/aws-logo.png" // Replace with actual image URL
+    },
+    {
+        question: "What does 'API' stand for?",
+        options: ["Application Programming Interface", "Automated Programming Interface", "Advanced Programming Interface", "Application Protocol Interface"],
+        answer: "Application Programming Interface",
+        difficulty: "medium"
+    },
+    {
+        question: "What is the name of this programming language?",
+        options: ["JavaScript", "Python", "Java", "C++"],
+        answer: "JavaScript",
+        difficulty: "medium",
+        image: "https://example.com/javascript-logo.png" // Replace with actual image URL
+    },
+    {
+        question: "What is the main purpose of a VPN?",
+        options: ["Secure internet connection", "Increase internet speed", "Store files online", "Play online games"],
+        answer: "Secure internet connection",
+        difficulty: "medium"
+    },
+    {
+        question: "What is the name of this database management system?",
+        options: ["MySQL", "MongoDB", "PostgreSQL", "SQLite"],
+        answer: "MySQL",
+        difficulty: "medium",
+        image: "https://example.com/mysql-logo.png" // Replace with actual image URL
+    },
+    {
+        question: "What does 'IoT' stand for?",
+        options: ["Internet of Things", "Internet of Technology", "Integrated Online Tools", "Internet of Transactions"],
+        answer: "Internet of Things",
+        difficulty: "medium"
     }
 ];
